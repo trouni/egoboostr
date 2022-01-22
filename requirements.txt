@@ -4,6 +4,8 @@ setuptools>=26
 twine
 wheel>=0.29
 
+streamlit
+
 # data science
 numpy
 pandas

@@ -5,10 +5,10 @@ install_requirements:
 	@pip install -r requirements.txt
 
 check_code:
-	@flake8 scripts/* norrisjokes/*.py
+	@flake8 scripts/* egoboostr/*.py
 
 black:
-	@black scripts/* norrisjokes/*.py
+	@black scripts/* egoboostr/*.py
 
 test:
 	@coverage run -m pytest tests/*.py
@@ -22,8 +22,8 @@ clean:
 	@rm -f .coverage
 	@rm -fr */__pycache__ */*.pyc __pycache__
 	@rm -fr build dist
-	@rm -fr norrisjokes-*.dist-info
-	@rm -fr norrisjokes.egg-info
+	@rm -fr egoboostr-*.dist-info
+	@rm -fr egoboostr.egg-info
 
 install:
 	@pip install . -U

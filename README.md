@@ -1,5 +1,5 @@
 # Data analysis
-- Document here the project: norrisjokes
+- Document here the project: egoboostr
 - Description: Project Description
 - Data Source:
 - Type of analysis:
@@ -22,15 +22,15 @@ Unittest test:
 make clean install test
 ```
 
-Check for norrisjokes in gitlab.com/{group}.
+Check for egoboostr in gitlab.com/{group}.
 If your project is not set please add it:
 
-- Create a new project on `gitlab.com/{group}/norrisjokes`
+- Create a new project on `gitlab.com/{group}/egoboostr`
 - Then populate it:
 
 ```bash
-##   e.g. if group is "{group}" and project_name is "norrisjokes"
-git remote add origin git@github.com:{group}/norrisjokes.git
+##   e.g. if group is "{group}" and project_name is "egoboostr"
+git remote add origin git@github.com:{group}/egoboostr.git
 git push -u origin master
 git push -u origin --tags
 ```
@@ -41,12 +41,12 @@ Functionnal test with a script:
 cd
 mkdir tmp
 cd tmp
-norrisjokes-run
+egoboostr
 ```
 
 # Install
 
-Go to `https://github.com/{group}/norrisjokes` to see the project, manage issues,
+Go to `https://github.com/{group}/egoboostr` to see the project, manage issues,
 setup you ssh public key, ...
 
 Create a python3 virtualenv and activate it:
@@ -59,8 +59,8 @@ deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
 Clone the project and install it:
 
 ```bash
-git clone git@github.com:{group}/norrisjokes.git
-cd norrisjokes
+git clone git@github.com:{group}/egoboostr.git
+cd egoboostr
 pip install -r requirements.txt
 make clean install test                # install and test
 ```
@@ -70,5 +70,5 @@ Functionnal test with a script:
 cd
 mkdir tmp
 cd tmp
-norrisjokes-run
+egoboostr
 ```
